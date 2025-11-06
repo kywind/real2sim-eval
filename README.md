@@ -87,7 +87,7 @@ We provide the Gaussian Splatting assets, PhysTwin checkpoints, and the policy c
 | ------------------- | ------------------------------------------------------------------------------------------------------ |
 | **Gaussian Splatting assets**    | [gs-scans](https://huggingface.co/shashuo0104/gs-scans)       |
 | **PhysTwin checkpoints**    | [phystwin-toy](https://huggingface.co/shashuo0104/phystwin-toy), [phystwin-rope](https://huggingface.co/shashuo0104/phystwin-rope), [phystwin-T-block](https://huggingface.co/shashuo0104/phystwin-T-block)       |
-| **Checkpoints**     | [see policy submodule README](policy/README.md)         |
+| **Checkpoints**     | [see policy submodule README](https://github.com/shuosha/policy_training/blob/ceb025db01db539f3df954d6836cda2bd39d0ef3/README.md)         |
 
 After downloading, extract the files to the following folders:
 - Gaussian Splatting scans: ```log/gs/scans/```. E.g., there should be ```log/gs/scans/rope/```, ```log/gs/scans/sloth/```, etc.
@@ -187,7 +187,7 @@ Execution-ready bash files are located in ```experiments/scripts/keyboard_teleop
 
 ### 4.5 Policy training
 
-For policy training, please refer to the policy submodule README [here](policy/README.md) for details.
+For policy training, please refer to the policy submodule README [here](https://github.com/shuosha/policy_training/blob/ceb025db01db539f3df954d6836cda2bd39d0ef3/README.md) for details.
 
 ## 5. Create custom assets
 
