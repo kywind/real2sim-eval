@@ -1,0 +1,9 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python experiments/eval_policy_parallel.py \
+gs=rope \
+env=xarm_gripper \
+physics.ckpt_path=log/phystwin/rope \
+physics.case_name=rope_0001 \
+policy.inference_cfg_path=policy/configs/inference/insert_rope.json \
+policy.checkpoint_path=log/policy_checkpoints/act-insert-rope/checkpoints/007000 \
+gs.use_grid_randomization=False \
+policy.n_episodes=200

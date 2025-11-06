@@ -1,0 +1,25 @@
+defaults:
+  - env: xarm_gripper
+  - gs: rope
+  - physics: default
+  - policy: default
+  - renderer: default
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+seed: 0
+
+env_name: BaseEnv-v0
+obs_mode: rgbd
+
+exp_root: log/experiments
+timestamp: null  # whether to overwrite the timestamp
+
+online: False  # whether to use viser visualization
+viser_port: 6789

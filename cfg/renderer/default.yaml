@@ -1,0 +1,4 @@
+gs_center: [0., 0., 0.]
+gs_distance: 0.8
+gs_azimuth: 160
+gs_elevation: 20

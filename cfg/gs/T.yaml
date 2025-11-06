@@ -1,0 +1,47 @@
+use_shs: False
+use_grid_randomization: True
+
+scene:
+  table_splat_path: 'log/gs/scans/scene_pusher/scene_pusher.ply'
+  total_mask_path: 'log/gs/scans/scene_pusher/scene_pusher_mask.npy'
+  color_A: [
+    -0.218, 1.491, 0.410, 1.006, -1.334, -0.439,
+    -0.396, 1.112, 0.665, 0.876, -0.996, -0.422,
+    -0.174, 0.438, 0.985, 0.452, -0.302, -0.579
+  ]
+  color_b: [
+      0.162, 0.123, 0.070
+  ]
+
+object:
+  path: 'log/gs/scans/T/T.ply'
+  pose: [
+    0.0, 1.0, 0.0, 0.43,
+    -1.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 1.0, 0.01,
+    0.0, 0.0, 0.0, 1.0
+  ]
+  translation_range: [-0.075, 0.075, -0.075, 0.075, 0.0, 0.0]
+  azimuth_range: [0, 360]
+  color_A: [
+    0.95, 0.00, 0.00,
+    0.00, 0.80, 0.00,
+    0.00, 0.00, 0.70
+  ]
+  color_b: [
+    0.00, 0.00, 0.00
+  ]
+  grid_randomization:
+    xy:
+      - [-0.05, -0.05]
+      - [-0.05, 0.05]
+      - [0.05, -0.05]
+      - [0.05, 0.05]
+    theta:
+      - 45
+      - 135
+      - 225
+      - 315
+    one_to_one: False
+
+meshes: {}

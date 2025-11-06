@@ -1,0 +1,70 @@
+use_shs: False
+use_grid_randomization: True
+
+scene:
+  table_splat_path: 'log/gs/scans/scene_gripper/scene_gripper.ply'
+  total_mask_path: 'log/gs/scans/scene_gripper/scene_gripper_mask.npy'
+  color_A: [
+    -0.218, 1.491, 0.410, 1.006, -1.334, -0.439,
+    -0.396, 1.112, 0.665, 0.876, -0.996, -0.422,
+    -0.174, 0.438, 0.985, 0.452, -0.302, -0.579
+  ]
+  color_b: [
+      0.162, 0.123, 0.070
+  ]
+
+object:
+  path: 'log/gs/scans/rope/rope.ply'
+  pose: [
+    1.0, 0.0, 0.0, 0.36,
+    0.0, -1.0, 0.0, 0.0,
+    0.0, 0.0, -1.0, 0.05,
+    0.0, 0.0, 0.0, 1.0
+  ]
+  translation_range: [-0.075, 0.075, -0.075, 0.075, 0.0, 0.0]
+  azimuth_range: [-15, 15]
+  color_A: [
+    0.96, 0.00, 0.00,
+    0.00, 0.75, 0.00,
+    0.00, 0.00, 0.71
+  ]
+  color_b: [
+    0.00, 0.00, 0.00
+  ]
+  grid_randomization:
+    xy:
+      - [-0.05, -0.05]
+      - [-0.05, 0.00]
+      - [-0.05, 0.05]
+      - [0.00, -0.05]
+      - [0.00, 0.00]
+      - [0.00, 0.05]
+      - [0.05, -0.05]
+      - [0.05, 0.00]
+      - [0.05, 0.05]
+    theta:
+      - -10
+      - 0
+      - 10
+    one_to_one: False
+
+meshes:
+  - name: 'clip'
+    splat_path: 'log/gs/scans/clip/clip.ply'
+    mesh_path: 'log/gs/scans/clip/clip_mesh.stl'
+    pose: [
+      0.99939083, 0.0348995, 0.0, 0.62,
+      -0.0348995, 0.99939083, 0.0, 0.05,
+      0.0, 0.0, 1.0, 0.0,
+      0.0, 0.0, 0.0, 1.0,
+    ]
+    translation_range: [-0.0, 0.0, -0.0, 0.0, 0.0, 0.0]
+    azimuth_range: [-0, 0]
+    color_A: [
+      0.99189923, 0.0, 0.0,
+      0.0, 0.91763986, 0.0,
+      0.0, 0.0, 0.85374426
+    ]
+    color_b: [
+      -0.13842733, -0.17904563, -0.18144001
+    ]

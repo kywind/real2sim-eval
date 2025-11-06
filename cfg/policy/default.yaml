@@ -1,0 +1,3 @@
+inference_cfg_path: null
+checkpoint_path: null
+n_episodes: 20

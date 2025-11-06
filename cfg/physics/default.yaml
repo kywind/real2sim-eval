@@ -1,0 +1,56 @@
+ckpt_path: null
+case_name: null
+
+### all the parameters below can be overwritten by checkpoint or task config
+
+# use CUDA graph to accelerate the simulation
+use_graph: True
+
+# time integration
+fps: 30
+dt: 5e-5
+num_substeps: 2000  # round(1.0 / fps / dt)  # will be updated
+duration: 30  # seconds
+
+# dynamics
+dashpot_damping: 100
+drag_damping: 3
+init_spring_Y: 3e4
+spring_Y_min: 0
+spring_Y_max: 1e5
+
+# topology
+object_radius: 0.02
+object_max_neighbours: 30
+controller_radius: 0.04
+controller_max_neighbours: 50
+
+# collision
+collide_elas: 0.5  # overwritten by checkpoint
+collide_fric: 0.3  # overwritten by checkpoint
+collide_self_elas: 0.5  # overwritten by checkpoint
+collide_self_fric: 0.3  # overwritten by checkpoint
+collide_eef_elas: 0.0
+collide_eef_fric: 1.0
+collision_requires_grad: True
+self_collision: True
+collision_dist: 0.005
+reverse_z: False  # false: positive z is up, true: negative z is up
+
+# registration
+icp_threshold: 0.02
+
+# interpolation
+use_lbs: True
+precompute_relations: True  # only when use_lbs is True
+
+# global translation
+table_height: 0.0
+
+# robot-object interaction
+grasp_force_threshold: 3e4
+
+# visualization
+visualize_mesh_points: False
+visualize_phystwin_points: False
+visualize_eef_points: False

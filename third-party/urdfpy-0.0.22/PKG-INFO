@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: urdfpy
+Version: 0.0.22
+Summary: URDF parser and manipulator for Python
+Home-page: https://github.com/mmatl/urdfpy
+Author: Matthew Matl
+Author-email: matthewcmatl@gmail.com
+License: MIT License
+Description: URDF parser and manipulator for Python
+Keywords: robotics ros urdf robots parser
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: dev
+Provides-Extra: docs
