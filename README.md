@@ -16,7 +16,7 @@
 <span class="author-block"><sup>3</sup>Google DeepMind,</span>
 <span class="author-block"><sup>*</sup>Equal contribution. Work partially done while interning at SceniX Inc.</span>
 
-### [Website](https://real2sim-eval.github.io/) | [Paper](https://real2sim-eval.github.io/files/paper.pdf)
+### [Website](https://real2sim-eval.github.io/) | [Paper](https://arxiv.org/abs/2511.04665)
 
 ![image](./assets/media/teaser.jpg)
 
@@ -262,9 +262,10 @@ python experiments/utils/create_rigid_phystwin.py \
 
 If you find this repo useful, please consider citing the paper
 ```
-@misc{zhang2025realtosim,
+@article{zhang2025real,
     title={Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions},
     author={Zhang, Kaifeng and Sha, Shuo and Jiang, Hanxiao and Loper, Matthew and Song, Hyunjong and Cai, Guangyan and Xu, Zhuo and Hu, Xiaochen and Zheng, Changxi and Li, Yunzhu},
+    journal={arXiv preprint arXiv:2511.04665},
     year={2025}
 }
 ```
