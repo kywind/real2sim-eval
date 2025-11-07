@@ -1,7 +1,7 @@
 # Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions
 
-<span class="author-block"><a target="_blank" href="https://kywind.github.io/">Kaifeng Zhang</a><sup>1*</sup>,</span>
-<span class="author-block"><a target="_blank" href="https://shuosha.github.io/">Shuo Sha</a><sup>1*</sup>,</span>
+<span class="author-block"><a target="_blank" href="https://kywind.github.io/">Kaifeng Zhang</a><sup>1,2*</sup>,</span>
+<span class="author-block"><a target="_blank" href="https://shuosha.github.io/">Shuo Sha</a><sup>1,2*</sup>,</span>
 <span class="author-block"><a target="_blank" href="https://jianghanxiao.github.io/">Hanxiao Jiang</a><sup>1</sup>,</span>
 <span class="author-block"><a target="_blank" href="https://scholar.google.com/citations?user=xokChDMAAAAJ&hl=en">Matthew Loper</a><sup>2</sup>,</span>
 <span class="author-block"><a target="_blank" href="https://sites.google.com/nyu.edu/jay-hyunjong-song">Hyunjong Song</a><sup>2</sup>,</span>
