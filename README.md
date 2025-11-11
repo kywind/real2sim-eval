@@ -16,7 +16,7 @@
 <span class="author-block"><sup>3</sup>Google DeepMind,</span>
 <span class="author-block"><sup>*</sup>Equal contribution. Work partially done while interning at SceniX Inc.</span>
 
-### [Website](https://real2sim-eval.github.io/) | [Paper](https://real2sim-eval.github.io/files/paper.pdf)
+### [Website](https://real2sim-eval.github.io/) | [ArXiv](https://arxiv.org/abs/2511.04665) | [Data&Ckpts](https://huggingface.co/collections/shashuo0104/real-to-sim-policy-eval)
 
 ![image](./assets/media/teaser.jpg)
 
